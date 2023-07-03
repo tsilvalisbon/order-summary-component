@@ -11,10 +11,7 @@ body {
   background-image: url("/images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-}
-
-p {
-  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 .card-container {
@@ -30,8 +27,7 @@ p {
 
 .card {
   flex-direction: column;
-  border-radius: 0.725rem;
-  margin: auto 40vw;
+  margin: auto 38vw;
 }
 
 .img-container {
@@ -50,6 +46,19 @@ p {
   align-content: center;
   flex-direction: column;
   background-color: white;
+}
+
+.info {
+  text-align: center;
+}
+.info h1 {
+  margin-top: 30px;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+.info p {
+  margin: 15px 10px;
+  font-size: 16px;
 }
 
 .attribution {

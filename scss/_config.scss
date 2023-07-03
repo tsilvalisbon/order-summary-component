@@ -18,10 +18,7 @@ body {
   background-image: url("/images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-}
-
-p {
-  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 @mixin display {
