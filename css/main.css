@@ -1,3 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+.card-container {
+  height: 100vh;
+}
+
+.card-container,
+.card {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  flex-direction: column;
+}
+
 .attribution {
   font-size: 15px;
   text-align: center;

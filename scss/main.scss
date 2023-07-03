@@ -1,3 +1,18 @@
+@import "config";
+
+.card-container {
+  height: 100vh;
+}
+
+.card-container,
+.card {
+  @include display;
+}
+
+.card {
+  flex-direction: column;
+}
+
 .attribution {
   font-size: 15px;
   text-align: center;
