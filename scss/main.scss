@@ -1,7 +1,7 @@
 @import "config";
 
 .card-container {
-  height: 100vh;
+  height: 90vh;
 }
 
 .card-container,
@@ -11,6 +11,22 @@
 
 .card {
   flex-direction: column;
+  border-radius: 0.725rem;
+  margin: auto 40vw;
+}
+
+.img-container {
+  height: 20vh;
+  @include display;
+  background-image: url(/images/illustration-hero.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.info-container {
+  @include display;
+  flex-direction: column;
+  background-color: white;
 }
 
 .attribution {

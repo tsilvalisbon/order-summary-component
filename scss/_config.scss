@@ -10,6 +10,16 @@ $dark-blue: hsl(223, 47%, 23%);
   margin: 0;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 p {
   font-size: 16px;
 }
