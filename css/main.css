@@ -58,6 +58,7 @@ body {
 }
 .info p {
   margin: 15px 10px;
+  color: rgb(153, 159, 170);
   font-size: 16px;
 }
 
@@ -65,7 +66,7 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin: auto 16px 16px 16px;
+  margin: auto 40px 16px 40px;
   padding: 16px;
   background-color: rgb(248, 248, 255);
   border-radius: 15px;
@@ -86,6 +87,19 @@ body {
   margin-left: 50px;
   margin-top: 10px;
   color: hsl(245, 75%, 52%);
+}
+
+.btn {
+  margin-top: 15px;
+  text-align: center;
+}
+.btn button {
+  border: 2px solid hsl(245, 75%, 52%);
+  background-color: hsl(245, 75%, 52%);
+  font-size: 16px;
+  color: white;
+  padding: 10px 70px;
+  border-radius: 10px;
 }
 
 .attribution {
