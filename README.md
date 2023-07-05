@@ -5,7 +5,7 @@ This is a solution to the Order Summary Component challenge on Frontend Mentor (
 ### Links
 
 - Solution URL: [https://github.com/tsilvalisbon/order-summary-component]
-- Live Site URL: [https://tsilvalisbon.github.io/nft-preview-card-component/]
+- Live Site URL: [https://tsilvalisbon.github.io/order-summary-component/]
 
 ### Built with
 
