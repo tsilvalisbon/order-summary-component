@@ -46,6 +46,7 @@
 .plan-container {
   @include display;
   margin: auto 16px 16px 16px;
+  padding: 16px;
   background-color: rgba(248, 248, 255, 255);
   border-radius: 15px;
 
@@ -65,7 +66,7 @@
   &_right {
     margin-right: -50px;
     margin-left: 50px;
-    margin-top: 5px;
+    margin-top: 10px;
     color: $bright-blue;
   }
 }

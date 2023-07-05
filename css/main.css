@@ -66,6 +66,7 @@ body {
   justify-content: center;
   align-content: center;
   margin: auto 16px 16px 16px;
+  padding: 16px;
   background-color: rgb(248, 248, 255);
   border-radius: 15px;
 }
@@ -83,7 +84,7 @@ body {
 .plan-container_right {
   margin-right: -50px;
   margin-left: 50px;
-  margin-top: 5px;
+  margin-top: 10px;
   color: hsl(245, 75%, 52%);
 }
 
