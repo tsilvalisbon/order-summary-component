@@ -43,6 +43,33 @@
   }
 }
 
+.plan-container {
+  @include display;
+  margin: auto 16px 16px 16px;
+  background-color: rgba(248, 248, 255, 255);
+  border-radius: 15px;
+
+  &_left {
+    display: flex;
+
+    img {
+      margin-left: -50px;
+      margin-right: 20px;
+    }
+    h2 {
+      font-size: 16px;
+      color: $dark-blue;
+    }
+  }
+
+  &_right {
+    margin-right: -50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    color: $bright-blue;
+  }
+}
+
 .attribution {
   font-size: 15px;
   text-align: center;

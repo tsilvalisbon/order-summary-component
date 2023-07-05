@@ -61,6 +61,32 @@ body {
   font-size: 16px;
 }
 
+.plan-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto 16px 16px 16px;
+  background-color: rgb(248, 248, 255);
+  border-radius: 15px;
+}
+.plan-container_left {
+  display: flex;
+}
+.plan-container_left img {
+  margin-left: -50px;
+  margin-right: 20px;
+}
+.plan-container_left h2 {
+  font-size: 16px;
+  color: hsl(223, 47%, 23%);
+}
+.plan-container_right {
+  margin-right: -50px;
+  margin-left: 50px;
+  margin-top: 5px;
+  color: hsl(245, 75%, 52%);
+}
+
 .attribution {
   font-size: 15px;
   text-align: center;
