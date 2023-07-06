@@ -91,6 +91,7 @@
     color: $very-pale-blue;
     padding: 10px 70px;
     border-radius: 10px;
+    box-shadow: 1px 6px #ddd9f6;
   }
   button:hover {
     background-color: $bright-blue-gradient;
@@ -120,4 +121,32 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 768px) {
+  .plan-container {
+    margin: auto 20px 16px 20px;
+
+    &_left img {
+      margin-left: 10px;
+    }
+    &_right {
+      margin-right: 10px;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .plan-container {
+    margin: auto 20px 16px 20px;
+
+    &_left img {
+      margin-left: 10px;
+    }
+    &_right {
+      margin-right: 10px;
+      margin-top: 20px;
+    }
+  }
 }
